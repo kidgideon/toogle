@@ -84,7 +84,7 @@
       const logs = [];
       const maxLogs = 100; // Cap the log lines to prevent memory overload
 
-      const eventSource = new EventSource('https://docker-bot-production.up.railway.app/run-bots');
+      const eventSource = new EventSource('https://docker-bot-7w1i.onrender.com/run-bots');
 
       eventSource.onmessage = function(event) {
         logs.push(event.data);
